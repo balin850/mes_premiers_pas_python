@@ -11,10 +11,10 @@ try:
 
 	while j != n :
 		if j > n :
-			j=int(input("entrer un nombre plus petit  que " + str(j) + " : "))
+			j=int(input("entrer un nombre plus petit  que {0}".format(j))
 			liste.append(j)
 		else :
-			j=int(input("entrer un nombre plus grand que " + str(j) + " : "))
+			j=int(input("entrer un nombre plus grand que {0}".format(j))
 			liste.append(j)
 
 	print ("Bravo vous avez reussi au bout de " + str(len(liste)) + " tentative(s)")
