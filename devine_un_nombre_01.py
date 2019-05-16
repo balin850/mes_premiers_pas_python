@@ -14,7 +14,7 @@ try:
 			j=int(input("entrer un nombre plus petit  que {0}".format(j))
 			liste.append(j)
 		else :
-			j=int(input("entrer un nombre plus grand que {0}".format(j))
+			j=int(input(f"entrer un nombre plus grand que {j}")
 			liste.append(j)
 
 	print ("Bravo vous avez reussi au bout de {0} tentative(s)".format(len(liste)))
