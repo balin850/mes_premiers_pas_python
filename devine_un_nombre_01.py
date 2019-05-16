@@ -17,7 +17,7 @@ try:
 			j=int(input("entrer un nombre plus grand que {0}".format(j))
 			liste.append(j)
 
-	print ("Bravo vous avez reussi au bout de " + str(len(liste)) + " tentative(s)")
+	print ("Bravo vous avez reussi au bout de {0} tentative(s)".format(len(liste)))
 	liste.sort(reverse=True)
 
 	print (liste)
